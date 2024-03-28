@@ -1,4 +1,4 @@
-### _Hi, I'm Chi_
+### Hi, I'm Chi
 
 I'm a developer based on Earth, 
 - Please check out my [website](https://aza-chi.github.io/) to learn more about me.
