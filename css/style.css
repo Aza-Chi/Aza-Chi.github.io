@@ -1,3 +1,51 @@
+
+a:link{ /*Unvisited Link Colour*/
+    text-decoration: none;
+    color: white;
+    }
+a:visited {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+a:hover {
+        text-decoration: none;
+        color: orangered;
+    }
+    
+a:focus {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+a:active {
+        text-decoration: none;
+        color: yellow;
+    }
+
 body {
-    background-color: whitesmoke;
+    /* background-color:;*/ /*whitesmoke;*/
+    background-image: linear-gradient(to right, rgb(0,0,0) 20% , rgb(0,0, 55) );
+    
+    }
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+    
+}
+
+img { 
+    color: white; /*For alt text color*/
 }
