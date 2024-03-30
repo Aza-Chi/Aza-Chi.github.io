@@ -23,18 +23,35 @@ a:active {
         color: yellow;
     }
 
+header {
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
 body {
     /* background-color:;*/ /*whitesmoke;*/
     background-image: linear-gradient(to right, rgb(0,0,0) 20% , rgb(0,0, 55) );
     
     }
 
+.right {
+        margin-top: 10%;
+        margin-left: 45%;
+    }
+
+footer {
+    margin-bottom: 1%;
+}
+
 h1 {
     color: white;
+    
 }
 
 h2 {
     color: white;
+    
 }
 
 h3 {
@@ -49,3 +66,4 @@ p {
 img { 
     color: white; /*For alt text color*/
 }
+
