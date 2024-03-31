@@ -5,7 +5,7 @@ a:link{ /*Unvisited Link Colour*/
     }
 a:visited {
         text-decoration: none;
-        color: yellow;
+        color: white;
     }
     
 a:hover {
@@ -15,32 +15,60 @@ a:hover {
     
 a:focus {
         text-decoration: none;
-        color: yellow;
+        color: white;
     }
     
 a:active {
         text-decoration: none;
-        color: yellow;
+        color: white;
     }
 
 header {
-    position: fixed;
-    margin-top: 5%;
-    margin-left: 20%;
+    display: flex;
+    border: solid 1px red;
+    /* position: fixed; */
+    position: absolute;
+    margin: 5% 40% 20% 15%;
+    width: 20%;
+    height: 50%;
+}
+
+nav {
+    border: solid 1px yellow;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-content: center;
+    height: 50%;
+    margin-top:10%;
 }
 
 body {
+    display: flex;
+    border: solid 5px green;
+    
     /* background-color:;*/ /*whitesmoke;*/
     background-image: linear-gradient(to right, rgb(0,0,0) 20% , rgb(0,0, 55) );
+    justify-content: center;
     
     }
 
 .right {
-        margin-top: 10%;
-        margin-left: 45%;
+    
+    width: 35%;
+    
+    
+    border: 1px solid red;
+    margin: 5% 20% 5% 50%;
+        /* margin-top: 3%;
+        margin-left: 45%; */
+        
     }
 
 footer {
+    position: absolute;
+    bottom: -32%;
+    left: 2%;
     margin-bottom: 1%;
 }
 
