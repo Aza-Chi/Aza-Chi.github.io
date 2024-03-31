@@ -26,8 +26,7 @@ a:active {
 header {
     display: flex;
     border: solid 1px red;
-    /* position: fixed; */
-    position: absolute;
+    position: fixed;
     margin: 5% 40% 20% 15%;
     width: 20%;
     height: 50%;
