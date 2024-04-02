@@ -49,12 +49,14 @@ body {
     /* background-color:;*/ /*whitesmoke;*/
     background-image: linear-gradient(to right, rgb(0,0,0) 20% , rgb(0,0, 55) );
     justify-content: center;
+    font-family: "Assistant", sans-serif;
     
     }
 
 .mid {
     border: solid 3px green;
     display: flex;
+    
 }
 
 .left {
@@ -88,11 +90,13 @@ footer {
 
 h1 {
     color: white;
+    font-weight: 800;
     
 }
 
 h2 {
     color: white;
+    font-weight: 700;
     
 }
 
