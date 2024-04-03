@@ -3,12 +3,14 @@
 ```diff
 + center some stuff
 + Expand frontend.
-+ Add a better font.
 + Add projects
 + Complete README.
-+ Add dark mode
++ Add SVG for CV/Mail
++ Add highlights for blocks
++ Add light/dark mode
 + Responsive design 
 ! Replace placeholder images
++ Add a better font.
 @@  @@ 
 -! !-
 ```
@@ -21,10 +23,13 @@
     <title>Chi's Website</title>
     <meta charset="utf-8">
     <script src="scripts/placeholder.js"> </script> <!--Placeholder!-->
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet"> <!--Placeholder!-->
+    <!-- Fonts End -->
+    <link href="css/style.css" rel="stylesheet"> 
 
 <!--
   // <uniquifier>: Use a unique and descriptive class name
@@ -58,15 +63,10 @@
   <img src="media/placeholder.jpeg" alt="Placeholder Image" title="Placeholder Image">
   </div>
 
-      <div class="buttons">
-        <button>Git</button>
-        <button>CV</button>
-        <button>Mail</button>
-      </div>
-      
+
       <div>
-        <span><button>Test</button></span> <!-- Light/Dark mode? -->
-        <span><button>Test</button></span> <!-- Language? -->
+        <span><button>Lights</button></span> <!-- Light/Dark mode? -->
+        <span><button>Language</button></span> <!-- Language? -->
       </div>
 
     <nav>
@@ -75,6 +75,18 @@
       <span><a href="#projects">Projects</a></span>
 
     </nav>
+
+    <div class="links">
+      <div></div>
+      <a id="github" href="https://github.com/Aza-Chi" target="_blank" title="GitHub">
+        <svg fill="white" width="24px" height="24pxs" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 0.396c-8.839 0-16 7.167-16 16 0 7.073 4.584 13.068 10.937 15.183 0.803 0.151 1.093-0.344 1.093-0.772 0-0.38-0.009-1.385-0.015-2.719-4.453 0.964-5.391-2.151-5.391-2.151-0.729-1.844-1.781-2.339-1.781-2.339-1.448-0.989 0.115-0.968 0.115-0.968 1.604 0.109 2.448 1.645 2.448 1.645 1.427 2.448 3.744 1.74 4.661 1.328 0.14-1.031 0.557-1.74 1.011-2.135-3.552-0.401-7.287-1.776-7.287-7.907 0-1.751 0.62-3.177 1.645-4.297-0.177-0.401-0.719-2.031 0.141-4.235 0 0 1.339-0.427 4.4 1.641 1.281-0.355 2.641-0.532 4-0.541 1.36 0.009 2.719 0.187 4 0.541 3.043-2.068 4.381-1.641 4.381-1.641 0.859 2.204 0.317 3.833 0.161 4.235 1.015 1.12 1.635 2.547 1.635 4.297 0 6.145-3.74 7.5-7.296 7.891 0.556 0.479 1.077 1.464 1.077 2.959 0 2.14-0.020 3.864-0.020 4.385 0 0.416 0.28 0.916 1.104 0.755 6.4-2.093 10.979-8.093 10.979-15.156 0-8.833-7.161-16-16-16z"></path> </g></svg>
+        </a>
+      </a>
+      <button>CV</button>
+      <button>Mail</button>
+    </div>
+    
+    <!-- rel="noreferrernoopener" aria-label="GitHub (opens in a new tab)" title="" -->
   </section>
 
 
@@ -93,6 +105,10 @@
     <p>Search Engines, JavaScript, HTML, CSS, Git</p> <!-- Make them buttons? Hover Color Change? Or icons? -->
   </div>
 
+  <div class="skills">
+
+  </div>
+
 
 
   <div class="education">
@@ -102,7 +118,7 @@
 
   <div class="projects">
     <h2 id="projects">Projects</h2>
-    <p>Testing - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    <h4>Mixed Messages - </h4>
     <p>Testing - bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
     <p>Testing - cccccccccccccccccccccccccccccc</p>
     <br>
@@ -115,6 +131,14 @@
     <p>Testing - cccccccccccccccccccccccccccccc</p>
     <br>
 
+  </div>
+
+  <div class="certificates">
+    <h2 id="certificates">Certificates</h2>
+    <p>Testing - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    <p>Testing - bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+    <p>Testing - cccccccccccccccccccccccccccccc</p>
+    <br>
   </div>
 
 

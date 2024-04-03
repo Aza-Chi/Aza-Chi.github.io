@@ -27,8 +27,8 @@ header {
     display: flex;
     border: solid 1px red;
     position: fixed;
-    margin: 5% 40% 20% 15%;
-    width: 20%;
+    margin: 5% 30% 20% 10%;
+    width: 40%;
     height: 50%;
 }
 
@@ -42,14 +42,19 @@ nav {
     margin-top:10%;
 }
 
+nav a:hover{
+    text-decoration: underline;
+}
+
 body {
 
     border: solid 5px green;
     
     /* background-color:;*/ /*whitesmoke;*/
-    background-image: linear-gradient(to right, rgb(0,0,0) 20% , rgb(0,0, 55) );
+    background-image: linear-gradient(to right, rgb(0,0,0) 20% , rgb(0,30, 85) );
     justify-content: center;
     font-family: "Assistant", sans-serif;
+    z-index: -2;
     
     }
 
@@ -64,9 +69,21 @@ body {
     flex-direction: column;
     border: solid 2px pink;
     position: fixed;
-    margin: 0% 0% 5% 13%;
-    width: 20%;
+    margin: 0% 1% 5% 7%;
+    width: 30%;
     height: 50%;
+}
+
+.links{
+    margin: 10% 0% 5% 0%;
+    z-index: 1;
+    /* background-image: linear-gradient(to left, rgb(0,0,0) 90% , rgb(100,100, 100) ); */
+}
+
+#github{
+    /* background-color: white; */
+    /* background-size: cover, contain; */
+    /* border-radius: 10px; */
 }
 
 
@@ -81,6 +98,13 @@ body {
         
     }
 
+.about:hover{
+    /* background-color: white; */
+    opacity: 80%;
+    box-shadow: 0 0 2px #888888;
+
+    }
+
 footer {
     border: solid 1px red;
     display: block;
@@ -88,9 +112,14 @@ footer {
     margin-bottom: -15px;
 }
 
+a{
+    font-size: 1.3em;
+}
+
 h1 {
     color: white;
     font-weight: 800;
+    font-size: 3em;
     
 }
 
@@ -101,6 +130,10 @@ h2 {
 }
 
 h3 {
+    color: white;
+}
+
+h4 {
     color: white;
 }
 
