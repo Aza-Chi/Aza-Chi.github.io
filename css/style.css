@@ -33,12 +33,13 @@ header {
 }
 
 nav {
-    border: solid 1px yellow;
+    border: solid 2px yellow;
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
     align-content: center;
-    height: 50%;
+    align-items: center;
+    height: 70%;
     margin-top:10%;
 }
 
@@ -51,18 +52,12 @@ body {
     border: solid 5px green;
     
     /* background-color:;*/ /*whitesmoke;*/
-    background-image: linear-gradient(to right, rgb(0,0,0) 20% , rgb(0,30, 85) );
+    background-image: linear-gradient(to right, rgb(15,15,35) 0% , rgb(0,30, 115) );
     justify-content: center;
     font-family: "Assistant", sans-serif;
     z-index: -2;
     
     }
-
-.mid {
-    border: solid 3px green;
-    display: flex;
-    
-}
 
 .left {
     display: flex;
@@ -75,15 +70,30 @@ body {
 }
 
 .links{
+    display: flex;
     margin: 10% 0% 5% 0%;
+    
+    
     z-index: 1;
     /* background-image: linear-gradient(to left, rgb(0,0,0) 90% , rgb(100,100, 100) ); */
 }
 
 #github{
-    /* background-color: white; */
+    
     /* background-size: cover, contain; */
     /* border-radius: 10px; */
+    margin: 0% 1% 0% 5%;
+}
+
+#cv{
+    /* background-color: white; */
+    margin: 0% 0% 0% 2%;
+    height: 78%;
+    width: 12%;
+}
+
+#mail{
+    margin: 0% 1% 0% -1%;
 }
 
 
