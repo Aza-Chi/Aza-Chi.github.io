@@ -10,7 +10,7 @@ a:visited {
     
 a:hover {
         text-decoration: none;
-        color: orangered;
+        color: darkorchid;/*orangered*/
     }
     
 a:focus {
@@ -23,6 +23,29 @@ a:active {
         color: white;
     }
 
+    
+.icon{
+        height: 2em;
+        width: 2em;
+        display: block;
+        fill: white;
+        color: white;
+        margin: 1rem;
+        
+        /* background-color: black; */
+    }
+
+    .icon:hover {
+        fill: darkorchid;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+
+    .mail{
+        display: block;
+    }
+
+    
 header {
     display: flex;
     border: solid 1px red;
@@ -52,10 +75,10 @@ body {
     border: solid 5px green;
     
     /* background-color:;*/ /*whitesmoke;*/
-    background-image: linear-gradient(to right, rgb(15,15,35) 0% , rgb(0,30, 115) );
+    background-image: linear-gradient(to right, rgb(15,15,45) 5% , rgb(0,30, 115) );
     justify-content: center;
     font-family: "Assistant", sans-serif;
-    z-index: -2;
+    
     
     }
 
@@ -72,14 +95,11 @@ body {
 .links{
     display: flex;
     margin: 10% 0% 5% 0%;
-    
-    
     z-index: 1;
     /* background-image: linear-gradient(to left, rgb(0,0,0) 90% , rgb(100,100, 100) ); */
 }
 
 #github{
-    
     /* background-size: cover, contain; */
     /* border-radius: 10px; */
     margin: 0% 1% 0% 5%;
