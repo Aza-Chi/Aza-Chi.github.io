@@ -35,15 +35,12 @@ a:active {
         /* background-color: black; */
     }
 
-    .icon:hover {
+.icon:hover {
         fill: darkorchid;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
       }
 
-    .mail{
-        display: block;
-    }
 
     
 header {
