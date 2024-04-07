@@ -1,4 +1,20 @@
 
+.mover {
+    width: 900px;
+    height: 900px;
+    border-radius: 500px;
+
+    background: radial-gradient(circle at center, rgb(45,45, 150) 30%, rgb(40,40, 145) 30%, rgb(5,5,45) 100% ) transparent;
+    opacity: 0.15;
+    position: fixed;
+    left: var(--mouse-x) ;
+    top: var(--mouse-y);
+    
+  }
+  
+  
+
+
 a:link{ /*Unvisited Link Colour*/
     text-decoration: none;
     color: white;
