@@ -9,7 +9,7 @@
     position: fixed;
     left: var(--mouse-x) ;
     top: var(--mouse-y);
-    
+    z-index: -100;
   }
   
   
@@ -136,15 +136,34 @@ body {
     width: 35%;    
     border: 1px solid red;
     margin: 5% 20% 5% 50%;
+    opacity: 90%;
         /* margin-top: 3%;
         margin-left: 45%; */
         
     }
 
-.about:hover{
-    /* background-color: white; */
-    opacity: 80%;
+.right:hover{
+    opacity: 100%;
     box-shadow: 0 0 2px #888888;
+    color: white;
+}
+.right a {
+    font-weight: 800;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+    .about{
+        
+        
+        
+        }
+
+.about:hover{
+    
+
 
     }
 
