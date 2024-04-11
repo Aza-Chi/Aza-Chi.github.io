@@ -140,7 +140,7 @@ body {
         /* margin-top: 3%;
         margin-left: 45%; */
         
-    }
+}
 
 .right:hover{
     opacity: 100%;
@@ -155,17 +155,40 @@ a:hover{
     text-decoration: underline;
 }
 
-    .about{
-        
-        
-        
-        }
+.about{
+             
+}
 
 .about:hover{
+    /* background-color: rgba(1, 12, 63, 0.7); */
+    /* box-shadow: 0 4px 2px 2px #000000; */
+ }
+
+ .education{
+
+ }
+
+ .education:hover{
     
+ }
 
+ .project{
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 20px;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+ }
 
-    }
+ .project:hover{
+    
+    background-color: rgba(70,70,70, 0.1);
+ }
+
+ .project:hover h2{
+    color: darkorchid;
+ }
+
 
 footer {
     border: solid 1px red;
