@@ -1,17 +1,19 @@
-
+/* Cursor Light - The rest is in scripts*/
 .mover {
     width: 900px;
     height: 900px;
     border-radius: 500px;
 
-    background: radial-gradient(circle at center, rgb(45,45, 150) 30%, rgb(40,40, 145) 30%, rgb(5,5,45) 100% ) transparent;
+    background: radial-gradient(circle at center, rgb(45,45, 150) 30%, rgb(40,40, 145) 30%, rgb(5,5,45));
+    /* background: radial-gradient(circle at center, rgb(45,45, 150) 30%, rgb(40,40, 145) 30%, rgb(5,5,45), transparent 100% ) ; */
+    /* background: radial-gradient(600px at 560px 221px, rgba(59, 88, 226, 0.45), transparent 80%); */
     opacity: 0.15;
     position: fixed;
     left: var(--mouse-x) ;
     top: var(--mouse-y);
     z-index: -100;
   }
-  
+  /* Cursor Light End*/
   
 
 
@@ -88,7 +90,7 @@ body {
     border: solid 5px green;
     
     /* background-color:;*/ /*whitesmoke;*/
-    background-image: linear-gradient(to right, rgb(15,15,45) 5% , rgb(0,30, 115) );
+    background-image: linear-gradient(to top, rgb(15,15,45) 5% , rgb(20,30, 65) );
     justify-content: center;
     font-family: "Assistant", sans-serif;
     
@@ -177,13 +179,15 @@ a:hover{
     align-content: center;
     justify-content: center;
     width: 80%;
-    border-radius: 20px;
-    padding: 0.5% 0.5% 0.5% 0.5%;
+    border-radius: 15px;
+    /* border-radius: .25rem; */
+    /* padding: 0.5% 0.5% 0.5% 0.5%; */
+    margin: 1% 0% 2% 0%;
  }
 
  .project:hover{
     
-    background-color: rgba(70,70,70, 0.1);
+    background-color: rgba(70,70,70, 0.2);
  }
 
  .project:hover h2{
