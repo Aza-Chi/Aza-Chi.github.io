@@ -13,6 +13,13 @@
     top: var(--mouse-y);
     z-index: -100;
   }
+
+  .light-theme .mover {
+    background: radial-gradient(600px at 560px 221px, rgba(255, 225, 193, 0.95), transparent 80%);
+    opacity: 0.25;
+  }
+
+
   /* Cursor Light End*/
   
 
@@ -138,7 +145,8 @@ body {
     width: 35%;    
     border: 1px solid red;
     margin: 4% 20% 5% 50%;
-    opacity: 90%;
+    font-weight: 600;
+    /* opacity: 90%; */
         /* margin-top: 3%;
         margin-left: 45%; */
         
@@ -266,11 +274,12 @@ img {
       --clr-foreground: hsl(0 0% 100%);
     }
   }
-  
+  /* Light theme */
   .light-theme {
-    background-image: linear-gradient(to top, rgb(180,180,180) 1% , rgb(240,240, 240) ); 
+    background-image: linear-gradient(to top, rgb(215, 160, 143) 5% , rgb(225, 185, 153) ); 
     --clr-foreground: hsl(0 0% 0%);
     --clr-background: hsl(0, 0%, 90%);
+    
     
   }
 
@@ -289,10 +298,15 @@ img {
   .light-theme a {
     color: black;
   }
+  /* Light theme End*/
+
+  /* Dark theme*/
   
   .dark-theme {
     background-image: linear-gradient(to top, rgb(15,15,45) 5% , rgb(20,30, 65) ); 
   }
+
+  /* Dark theme End*/
   
   *,
   *::before,
@@ -373,7 +387,7 @@ img {
   }
   
   .toggle-circle {
-    transition: transform 600ms ease-out;
+    transition: transform 300ms ease-out;
   }
   
   .light-theme .toggle-circle {
@@ -422,4 +436,4 @@ img {
       transform: scale(1);
     }
   }
-  
+  /* Dark Mode / Theme Toggle  End*/
