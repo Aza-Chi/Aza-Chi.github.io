@@ -35,7 +35,8 @@ a:visited {
     
 a:hover {
         text-decoration: none;
-        color: darkorchid;/*orangered*/
+        /* color: darkorchid;orangered */
+        color: #5cecc0;
     }
     
 a:focus {
@@ -50,27 +51,43 @@ a:active {
 
     
 .icon{
-        height: 2em;
-        width: 2em;
+        height: 1.5em;
+        width: 1.5em;
         display: block;
         fill: white;
         color: white;
-        margin: 1rem;
+        margin: 0.7rem;
         
         /* background-color: black; */
     }
 
 .icon:hover {
-        fill: darkorchid;
+        /* fill: darkorchid; */
+        fill: #5cecc0;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
       }
+
+.light-theme .icon{
+  height: 2em;
+  width: 2em;
+  display: block;
+  fill: black;
+  /* color: white; */
+  margin: 1rem;
+}
+
+.light-theme .icon:hover {
+  fill: rgb(207, 24, 0);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 
 
     
 header {
     display: flex;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     position: fixed;
     margin: 3% 30% 20% 10%;
     width: 40%;
@@ -78,14 +95,16 @@ header {
 }
 
 nav {
-    border: solid 2px yellow;
+    /* border: solid 2px yellow; */
     display: flex;
     flex-direction: column; 
-    justify-content: space-between;
+    
     align-content: center;
     align-items: center;
     height: 70%;
     margin-top:10%;
+    margin-right: 50%;
+    font-weight: 300;
 }
 
 nav a:hover{
@@ -94,7 +113,7 @@ nav a:hover{
 
 body {
 
-    border: solid 5px green;
+    /* border: solid 5px green; */
     
     /* background-color:;*/ /*whitesmoke;*/
     /* background-image: linear-gradient(to top, rgb(15,15,45) 5% , rgb(20,30, 65) ); Moved to dark theme! */
@@ -105,9 +124,9 @@ body {
     }
 
 .left {
+  /* border: solid 2px pink; */
     display: flex;
     flex-direction: column;
-    border: solid 2px pink;
     position: fixed;
     margin: 0% 1% 5% 7%;
     width: 30%;
@@ -115,15 +134,18 @@ body {
 }
 
 .links{
+  /* border: solid 1px red; */
     display: flex;
-    margin: 10% 0% 5% 0%;
+    margin: 3% 0% 35% 0%;
     z-index: 1;
+
     /* background-image: linear-gradient(to left, rgb(0,0,0) 90% , rgb(100,100, 100) ); */
 }
 
 #github{
     /* background-size: cover, contain; */
     /* border-radius: 10px; */
+
     margin: 0% 1% 0% 5%;
 }
 
@@ -143,7 +165,7 @@ body {
 .right {
     
     width: 35%;    
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 4% 20% 5% 50%;
     font-weight: 600;
     /* opacity: 90%; */
@@ -154,7 +176,7 @@ body {
 
 .right:hover{
     opacity: 100%;
-    box-shadow: 0 0 2px #888888;
+    /* box-shadow: 0 0 2px #888888; */
     color: white;
 }
 .right a {
@@ -198,6 +220,7 @@ a:hover{
     /* border-radius: .25rem; */
     /* padding: 0.5% 0.5% 0.5% 0.5%; */
     margin: 1% 0% 2% 0%;
+    /* background-color: rgba(50,50, 50, 0.10); */
     
  }
 
@@ -205,21 +228,24 @@ a:hover{
     
     /* background-color: rgba(70,70,70, 0.1); */
     /* background-color: rgba(40,50, 85, 0.3); */
-    background-color: rgba(0,0, 0, 0.15);
+    background-color: rgba(0,0, 0, 0.10);
 
  }
 
  .project:hover h2{
-    color: darkorchid;
+    /* color: darkorchid; */
+    color: #00aebe;
+    
  }
 
  .project a:hover{
-    color: rgb(255, 128, 25);
+  color: #5cecc0;
+    /* color: #00b38a; */
  }
 
 
 footer {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: block;
     margin-left: 20px;
     margin-bottom: -15px;
