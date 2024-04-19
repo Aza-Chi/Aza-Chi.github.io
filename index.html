@@ -2,8 +2,7 @@
   #### TO-DO List
 ```diff
 + Is there a faster way for fonts? Can increase performance/load speed?
-+ Add light/dark mode // button from FS open is nice? Or hamburgers?
-+ Style <hr> ?
++ Clean up light/dark mode 
 + Add coloured tech/stack tags to projects
 + Better favicon?
 + center some stuff
@@ -34,18 +33,44 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Fonts End -->
     <link href="css/style.css" rel="stylesheet"> 
     <script src="scripts/script.js" defer> </script>
-<!--
-  // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 800
+<!-- Mukta CSS classes
+.mukta-extralight {
+  font-family: "Mukta", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
 
-.assistant-<uniquifier> {
-  font-family: "Assistant", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+.mukta-light {
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.mukta-regular {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mukta-medium {
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mukta-semibold {
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.mukta-bold {
+  font-family: "Mukta", sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -64,7 +89,7 @@
   <section id="left" class="left">
   <div>
   <h1>Hello! I'm Chi</h1>
-  <h1>A Fullstack Developer</h1>
+  <h1>A Full-Stack Developer</h1>
   <p>Welcome to my website!</p>
   <img src="media/placeholder.jpeg" alt="Placeholder Image" title="Placeholder Image">
   </div>
@@ -76,7 +101,7 @@
         <path d="M403.21,167V69.18H305.38L236.2,0,167,69.18H69.18V167L0,236.2l69.18,69.18v97.83H167l69.18,69.18,69.18-69.18h97.83V305.38l69.18-69.18Zm-167,198.17a129,129,0,1,1,129-129A129,129,0,0,1,236.2,365.19Z" />
 
           <button id="theme-toggle" aria-label="Switch to dark theme">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 472.39 472.39">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 472.39 472.39">
               <g class="toggle-sun">
                 <path d="M403.21,167V69.18H305.38L236.2,0,167,69.18H69.18V167L0,236.2l69.18,69.18v97.83H167l69.18,69.18,69.18-69.18h97.83V305.38l69.18-69.18Zm-167,198.17a129,129,0,1,1,129-129A129,129,0,0,1,236.2,365.19Z" />
               </g>
@@ -122,7 +147,7 @@
     
   <div class="about">
     <h2 id="about">About</h2>
-    <p>I am a Fullstack Developer from Earth, with a Bachelors Degree in __. I have a passion for solving problems and optimising systems.</p>
+    <p>I am a Full-Stack Developer from Earth, with a Bachelors Degree in __. I have a passion for solving problems and optimising systems.</p>
     <p>Using my technology skills, I have a keen interest in helping people bring their digital visions to reality.</p>
     <p>In my free time I like to ___!</p>
     <p>Quote</p> <!--Quote?-->

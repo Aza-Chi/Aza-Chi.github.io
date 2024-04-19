@@ -69,12 +69,12 @@ a:active {
       }
 
 .light-theme .icon{
-  height: 2em;
-  width: 2em;
+  height: 1.5em;
+  width: 1.5em;
   display: block;
   fill: black;
   /* color: white; */
-  margin: 1rem;
+  /* margin: 1rem; */
 }
 
 .light-theme .icon:hover {
@@ -89,7 +89,7 @@ header {
     display: flex;
     /* border: solid 1px red; */
     position: fixed;
-    margin: 3% 30% 20% 10%;
+    margin: 1% 30% 20% 10%;
     width: 40%;
     height: 50%;
 }
@@ -118,7 +118,8 @@ body {
     /* background-color:;*/ /*whitesmoke;*/
     /* background-image: linear-gradient(to top, rgb(15,15,45) 5% , rgb(20,30, 65) ); Moved to dark theme! */
     justify-content: center;
-    font-family: "Assistant", sans-serif;
+    font-family: "Mukta", sans-serif;
+    
     
     
     }
@@ -167,12 +168,13 @@ body {
     width: 35%;    
     /* border: 1px solid red; */
     margin: 4% 20% 5% 50%;
-    font-weight: 600;
+    font-weight: 300;
     /* opacity: 90%; */
         /* margin-top: 3%;
         margin-left: 45%; */
         
 }
+
 
 .right:hover{
     opacity: 100%;
@@ -280,6 +282,17 @@ p {
     color: white;
     
 }
+
+.light-theme a {
+  font-weight: 600;
+  color: black;
+}
+
+.light-theme p {
+  font-weight: 500;
+  color: black;
+}
+
 
 img { 
     color: white; /*For alt text color*/
