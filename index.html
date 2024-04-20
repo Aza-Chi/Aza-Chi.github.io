@@ -1,7 +1,8 @@
 <!--
   #### TO-DO List
 ```diff
-+ Is there a faster way for fonts? Can increase performance/load speed?
++ Is there a faster way for fonts? Can increase performance/load speed? rel="preload"??
++ Change highlight text colour? Default is a light blue 
 + Clean up light/dark mode 
 + Add coloured tech/stack tags to projects
 + Better favicon?
@@ -26,13 +27,15 @@
 <html lang="en-GB">
 
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Chi's Website</title>
     <meta charset="utf-8">
     
     <link rel="icon" type="image/x-icon" href="/media/images/pixelcat1.png">
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- rel="preconnect" -->
+    <link rel="preload" href="https://fonts.googleapis.com"> 
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Fonts End -->
     <link href="css/style.css" rel="stylesheet"> 
@@ -91,7 +94,7 @@
   <h1>Hello! I'm Chi</h1>
   <h1>A Full-Stack Developer</h1>
   <p>Welcome to my website!</p>
-  <img src="media/placeholder.jpeg" alt="Placeholder Image" title="Placeholder Image">
+  <img src="media/placeholder.jpeg" width="100" height="100" alt="Placeholder Image" title="Placeholder Image">
   </div>
 
 
@@ -163,7 +166,7 @@
 
   <div class="education">
     <h2 id="education">Education</h2>
-    <p></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 
   <div class="projects">
@@ -171,7 +174,7 @@
     <div class="project">
     
     <h2>Mixed Messages - "Fortune Teller"</h2>
-    <img src="media/placeholder.jpeg" alt="Placeholder Image" title="Placeholder Image">
+    <img src="media/placeholder.jpeg" width="100" height="100" alt="Placeholder Image" title="Placeholder Image">
     <p>Predicts your fortune on a random day in the next 30 days.</p>
     <p>Tech Tags</p>
     <a href="https://github.com/Aza-Chi/Mixed-Messages" target="_blank" title="Repository Link">Repository Link</a>

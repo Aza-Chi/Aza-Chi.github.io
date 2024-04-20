@@ -1,3 +1,5 @@
+@-ms-viewport{ width: device-width; }
+
 /* Cursor Light - The rest is in scripts*/
 .mover {
     width: 900px;
@@ -168,10 +170,10 @@ body {
     width: 35%;    
     /* border: 1px solid red; */
     margin: 4% 20% 5% 50%;
-    font-weight: 300;
     /* opacity: 90%; */
         /* margin-top: 3%;
         margin-left: 45%; */
+
         
 }
 
@@ -296,6 +298,10 @@ p {
 
 img { 
     color: white; /*For alt text color*/
+}
+
+.light-theme img { 
+  color: black; /*For alt text color*/
 }
 
 
