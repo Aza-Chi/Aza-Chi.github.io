@@ -24,6 +24,24 @@
 
   /* Cursor Light End*/
   
+/* Highlights */
+
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: cyan;
+}
+
+::selection {
+  color: black;
+  background: cyan;
+}
+
+.light-theme ::selection {
+  color: black;
+  background: rgb(255, 136, 0);
+}
+/* Highlights End */
+
 
 
 a:link{ /*Unvisited Link Colour*/
