@@ -313,7 +313,7 @@ p {
   color: black;
 }
 
-
+/* Images */
 img { 
     color: white; /*For alt text color*/
 }
@@ -322,8 +322,17 @@ img {
   color: black; /*For alt text color*/
 }
 
+.image.thumb {
+  border: solid 3px rgb(50, 50, 50);
+}
+
+.image.thumb:hover {
+  opacity: 1;
+  border: solid 3px rgb(85, 85, 85);
+}
 
 
+/* Images End */
 /* Dark Mode / Theme Toggle  */
 
 :root {

@@ -2,22 +2,20 @@
   #### TO-DO List
 ```diff
 + Is there a faster way for fonts? Can increase performance/load speed? rel="preload" makes it slower
-+ Change highlight text colour? Default is a light blue 
 + Clean up light/dark mode 
+  - Hover over links and Headings
 + Add coloured tech/stack tags to projects
-+ Better favicon?
 + center some stuff
 + Expand frontend.
 + Add projects
 + Complete README.
 + Improve highlights for blocks
-
 + Responsive design 
 + Add Highlights in Nav
 ! Replace placeholder images
 + Add a better font?
 + Add accessibility - aria, titles etc 
-
++ Better favicon?
 @@  @@ 
 -! !-
 ```
@@ -31,7 +29,7 @@
     <title>Chi's Website</title>
     <meta charset="utf-8">
     
-    <link rel="icon" type="image/x-icon" href="/media/images/pixelcat1.png">
+    <link rel="icon" type="image/x-icon" href="/media/images/pixelcat1.favicon">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -170,9 +168,23 @@
 
   <div class="projects">
     <h2 id="projects">Projects</h2>
+
     <div class="project">
-    
-    <h2>Mixed Messages - "Fortune Teller"</h2>
+
+      <article>
+        <img src="./media/images/ProjectQuizCreator.png" class="image thumb" width="430" height="205" alt="Quiz Creator"/>
+        <h3>Quiz Creator - "Flashcards"</h3>
+        <p>Create quizzes with multiple flashcards.</p>
+        <p>Tech Tags</p>
+        <a href="https://github.com/Aza-Chi/" target="_blank" title="Repository Link">Repository Link</a>
+        <a href="" target="_blank">Hosted at </a>
+      </article>
+
+    </div>
+
+    <div class="project">
+
+    <h3>Mixed Messages - "Fortune Teller"</h3>
     <img src="media/placeholder.jpeg" width="100" height="100" alt="Placeholder Image" title="Placeholder Image">
     <p>Predicts your fortune on a random day in the next 30 days.</p>
     <p>Tech Tags</p>
@@ -182,7 +194,7 @@
   </div>
 
     <div class="project">
-    <h2>Spotify Playlist App - "Jammmin"</h2>
+    <h3>Spotify Playlist App - "Jammmin"</h3>
     
     <p>A React Web Application - Search the Spotify library, create a custom playlist, and save it to a Spotify account.</p>
     <p>Tech Tags</p>
@@ -192,7 +204,7 @@
     </div>
 
     <div class="project">
-    <h2>Quiz Creator - "Flashcards"</h2>
+    <h3>Quiz Creator - "Flashcards"</h3>
     <p>Create quizzes with multiple flashcards.</p>
     <p>Tech Tags</p>
     <a href="https://github.com/Aza-Chi/" target="_blank" title="Repository Link">Repository Link</a>
