@@ -228,8 +228,8 @@ a:hover{
  }
 
  hr {
-    border: solid 1px rgb(94, 0, 141);
-    background: purple;
+    border: solid 1px rgb(0, 0, 0);
+    /* background: purple; */
 }
 
 
@@ -254,7 +254,7 @@ a:hover{
 
  }
 
- .project:hover h2{
+ .project:hover h3{
     /* color: darkorchid; */
     color: #00aebe;
     
@@ -273,6 +273,7 @@ footer {
     margin-bottom: -15px;
 }
 
+/* Fonts and Links */
 a{
     font-size: 1.3em;
 }
@@ -299,7 +300,7 @@ h4 {
 }
 
 p {
-    color: white;
+    color: rgb(190, 190, 190);
     
 }
 
@@ -310,8 +311,23 @@ p {
 
 .light-theme p {
   font-weight: 500;
+  color: rgb(41, 41, 41);
+}
+
+.light-theme h1 {
   color: black;
 }
+
+.light-theme h2 {
+  color: black;
+}
+
+.light-theme h3 {
+  color: black;
+}
+
+
+/* Fonts and Links End*/ 
 
 /* Images */
 img { 
@@ -323,12 +339,14 @@ img {
 }
 
 .image.thumb {
-  border: solid 3px rgb(50, 50, 50);
+  border-radius: 5px;
+  border: solid 2px rgb(80, 80, 80);
 }
 
-.image.thumb:hover {
+.project:hover .image.thumb {
   opacity: 1;
-  border: solid 3px rgb(85, 85, 85);
+  border-radius: 5px;
+  border: solid 2px rgb(105, 105, 105);
 }
 
 
@@ -348,28 +366,13 @@ img {
   }
   /* Light theme */
   .light-theme {
-    background-image: linear-gradient(to top, rgb(215, 160, 143) 5% , rgb(225, 185, 153) ); 
+    background-image: linear-gradient(to top, rgb(215, 160, 143) 5% , rgb(235, 195, 163) ); 
     --clr-foreground: hsl(0 0% 0%);
     --clr-background: hsl(0, 0%, 90%);
     
     
   }
 
-  .light-theme p {
-    color: black;
-  }
-
-  .light-theme h1 {
-    color: black;
-  }
-
-  .light-theme h2 {
-    color: black;
-  }
-
-  .light-theme a {
-    color: black;
-  }
   /* Light theme End*/
 
   /* Dark theme*/
