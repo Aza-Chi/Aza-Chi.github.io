@@ -246,6 +246,11 @@ a:hover{
     
  }
 
+ .project a{
+  font-size: 16px;
+  font-weight: 100;
+ }
+
  .project:hover{
     
     /* background-color: rgba(70,70,70, 0.1); */
@@ -256,23 +261,25 @@ a:hover{
 
  .project:hover h3{
     /* color: darkorchid; */
-    color: #00aebe;
+    /* color: #00aebe; */
+    color: rgba(92,	236,	192, 1.0);
     
  }
 
  .project a:hover{
-  color: #5cecc0;
+  color: rgba(92,	236,	192, 1.0);
+  /* color: #5cecc0; */
     /* color: #00b38a; */
  }
 
  .tag {
 
   border: solid 1px rgba(00, 100, 100, 0.5);
-  background-color: rgba(0,100, 100, 0.50);
+  background-color: rgba(52,	196,	152, 0.20);
   border-radius: 999em 999em 999em 999em;
   padding: 0px 14px 0px 14px;
   margin: 1px 2px 1px 2px;
-  color: rgb(200, 255, 255);
+  color: rgba(92,	236,	192, 1.0);
 
 
  }
