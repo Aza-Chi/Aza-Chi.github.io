@@ -267,7 +267,9 @@ a:hover{
  }
 
  .light-theme .project:hover h3 {
-  color: rgb(212, 138, 25)
+  /* color: rgb(0, 60, 255); */
+  color: rgb(78, 0, 168);
+  
  }
 
  .project a:hover{
@@ -277,7 +279,7 @@ a:hover{
  }
 
  .light-theme .project a:hover{
-  color: rgba(92,	236,	192, 1.0);
+  color: rgb(0, 60, 255);
   /* color: #5cecc0; */
     /* color: #00b38a; */
  }
@@ -403,7 +405,7 @@ img {
   }
   /* Light theme */
   .light-theme {
-    background-image: linear-gradient(to top, #DDD0C8 5% ,#DDD0C8 ); 
+    background-image: linear-gradient(to top, #ffddc8 1% ,#DDD0C8 ); 
     /* background-image: linear-gradient(to top, rgb(195, 140, 123) 5% , rgb(205, 165, 133) );  */
     --clr-foreground: hsl(0 0% 0%);
     --clr-background: hsl(0, 0%, 90%);
