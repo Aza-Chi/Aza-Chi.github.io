@@ -240,7 +240,7 @@ a:hover{
     border-radius: 5px;
      /* border: solid 2px darkorchid; */
     /* border-radius: .25rem; */
-    /* padding: 0.5% 0.5% 0.5% 0.5%; */
+    
     margin: 1% 0% 2% 0%;
     /* background-color: rgba(50,50, 50, 0.10); */
     
@@ -259,6 +259,12 @@ a:hover{
 
  }
 
+ .project h3{
+   text-align: center;
+   
+}
+
+
  .project:hover h3{
     /* color: darkorchid; */
     /* color: #00aebe; */
@@ -268,7 +274,16 @@ a:hover{
 
  .light-theme .project:hover h3 {
   /* color: rgb(0, 60, 255); */
-  color: rgb(78, 0, 168);
+  /* color: rgb(255, 255, 255); */
+  color: black;
+  /* color: #CBDDC8; */
+  /* color: #C8D5DD; */
+  /* color: #DAC8DD */
+  /* Not liking the text shadow hmm need different colour palette */
+  text-shadow:     0 0 0px black,
+  0 0 0px black,
+  0 0 0px black,
+  0 0 0px black
   
  }
 
