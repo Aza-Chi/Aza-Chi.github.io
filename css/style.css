@@ -246,6 +246,13 @@ a:hover{
     
  }
 
+ .project img{
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+ }
+
  .project a{
   font-size: 16px;
   font-weight: 100;
@@ -386,6 +393,11 @@ p {
 /* Images */
 img { 
     color: white; /*For alt text color*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
 }
 
 .light-theme img { 
@@ -420,7 +432,9 @@ img {
   }
   /* Light theme */
   .light-theme {
-    background-image: linear-gradient(to top, #ffddc8 1% ,#DDD0C8 ); 
+    /* background-image: linear-gradient(to top, #ffddc8 1% ,#DDD0C8 ); BEIGE  */
+    /* background-image: linear-gradient(to top, #0FA4AF 1% ,#AFDDE5 ); darker blue? */
+    background-image: linear-gradient(to top, rgb(130, 225, 231)1% ,#AFDDE5 ); 
     /* background-image: linear-gradient(to top, rgb(195, 140, 123) 5% , rgb(205, 165, 133) );  */
     --clr-foreground: hsl(0 0% 0%);
     --clr-background: hsl(0, 0%, 90%);
