@@ -24,6 +24,11 @@
 
   /* Cursor Light End*/
   
+
+  html {
+    scroll-behavior: smooth;
+  }
+
 /* Highlights */
 
 ::-moz-selection { /* Code for Firefox */
@@ -126,8 +131,32 @@ ul{
     
   }
 
+  /* NAV STUFF Section 1 2 3 4 */
+  .menu-items {
+    color: white;
+    font-size: 1.5rem;
+    border: solid 1px green;
+  }
+
+  .menu-list.active{
+    color: cyan;
+    border: solid 2px red;
+  }
+
+  .menu-items .active {
+    /* color: cyan; */
+    border: solid 1px red;
+  }
+
+  .navbar__menu .menu-list.active a,
+.navbar__menu .menu-list.active a:link {
+  color: #5cecc0;
+  text-decoration:underline
+}
+
+
   section{
-    height: 100vh;
+    min-height: 30em;
   }
 
 
@@ -149,10 +178,12 @@ nav a:hover{
     text-decoration: underline;
 }
 
-
+.main-hero {
+  min-height: 40vh;
+  padding-top: 3em;
+}
 
 body {
-
     /* border: solid 5px green; */
     
     /* background-color:;*/ /*whitesmoke;*/

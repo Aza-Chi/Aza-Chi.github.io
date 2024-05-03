@@ -87,7 +87,7 @@
 
 
 
-  <header>
+  <header class="page__header">
 
   <section id="left" class="left">
   <div>
@@ -126,7 +126,9 @@
       <span><a href="#education">EDUCATION</a></span>
       <span><a href="#projects">PROJECTS</a></span>
     </nav> -->
-    <ul id="navbar__list"></ul>
+    <nav class="navbar__menu">
+      <ul id="navbar__list"></ul>
+    </nav>
 
     <div class="links">
 
@@ -145,31 +147,48 @@
 
   </header>
 
-  <div class="right">
+  <div class="right main__hero">
 
-    
-  <div class="about sec" id="section1">
-    <h2 id="about" >About</h2>
+  
+    <section class="active" id="section1" data-nav="Section 1">
+  <div class="about">
+    <h2 id="about">About</h2>
     <p>I am a Full-Stack Developer from Earth, with a Bachelors Degree in __. I have a passion for solving problems and optimising systems.</p>
     <p>Using my technology skills, I have a keen interest in helping people bring their digital visions to reality.</p>
     <p>In my free time I like to ___!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
     <p>Quote</p> <!--Quote?-->
     <h2>Skills</h2>
     <p>Search Engines, JavaScript, HTML, CSS, Git</p> <!-- Make them buttons? Hover Color Change? Or icons? -->
   </div>
 
   <div class="skills">
-
   </div>
 
+</section>
 
 
-  <div class="education sec" id="section2">
+<section id="section2" data-nav="Section 2">
+  <div class="education sec">
     <h2 id="education">Education</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
   </div>
+</section>
 
-  <div class="projects sec" id="section">
+<section id="section3" data-nav="Section 3"> 
+<div>
+  <h3>EXP</h3>
+  <p> AAAAA</p>
+  <p> AAAAA</p>
+</div>
+</section>
+
+
+  <section id="section4" data-nav="Section 4">
+  <div class="projects">
     <h2 id="projects">Projects</h2>
 
     <div class="project">
@@ -239,6 +258,9 @@
   </div>
 
   </div>
+</section>
+
+
 
   <div class="certificates">
     <h2 id="certificates">Certificates</h2>
@@ -247,7 +269,7 @@
     <p>Testing - cccccccccccccccccccccccccccccc</p>
     <br>
   </div> <!-- End Certificates -->
-  
+
 
   </div> <!-- End Right-->
 
