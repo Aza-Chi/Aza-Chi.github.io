@@ -1,18 +1,21 @@
 <!--
   #### TO-DO List
 ```diff
-+ tech tags to projects - improve colors and readability for light theme
-+ Is there a faster way for fonts? Can increase performance/load speed? rel="preload" makes it slower
-+ Clean up light/dark mode 
+
+== LIGHT THEME STUFF
+  + Add Highlights in Nav - FIX Light Colours For Nav
+  + tech tags to projects - improve colors and readability for light theme
+  + Clean up light/dark mode 
+  + Improve highlights for blocks LIGHT MODE 
   - Hover over links and Headings Lightmode highlights need fixing
 
+  + Is there a faster way for fonts? Can increase performance/load speed? rel="preload" makes it slower
 + center some stuff - project images 
 + Expand frontend.
 + Add projects
 + Complete README.
-+ Improve highlights for blocks
 + Responsive design 
-+ Add Highlights in Nav
+
 ! Replace placeholder images
 + Add a better font?
 + Add accessibility - aria, titles etc 
@@ -40,6 +43,8 @@
     <!-- Fonts End -->
     <link href="css/style.css" rel="stylesheet"> 
     <script src="scripts/script.js" defer> </script>
+
+
 <!-- Mukta CSS classes
 .mukta-extralight {
   font-family: "Mukta", sans-serif;
@@ -89,7 +94,7 @@
 
   <header class="page__header">
 
-  <section id="left" class="left">
+  <div id="left" class="left">
   <div>
   <h1>Hello! I'm Chi</h1>
   <h1>A Full-Stack Developer</h1>
@@ -121,14 +126,21 @@
         
       </div>
 
-    <!-- <nav>
-      <span><a href="#about">ABOUT</a></span>
-      <span><a href="#education">EDUCATION</a></span>
-      <span><a href="#projects">PROJECTS</a></span>
-    </nav> -->
-    <nav class="navbar__menu">
+     <nav class="navigation">
+      <ul>
+      <li><a href="#about" class="active">ABOUT</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+    </ul>
+    </nav> 
+
+
+
+
+
+    <!-- <nav class="navbar__menu">
       <ul id="navbar__list"></ul>
-    </nav>
+    </nav> -->
 
     <div class="links">
 
@@ -147,12 +159,11 @@
 
   </header>
 
-  <div class="right main__hero">
+  <div class="right">
 
-  
-    <section class="active" id="section1" data-nav="Section 1">
+  <section id="about">
   <div class="about">
-    <h2 id="about">About</h2>
+    <h2 >About</h2>
     <p>I am a Full-Stack Developer from Earth, with a Bachelors Degree in __. I have a passion for solving problems and optimising systems.</p>
     <p>Using my technology skills, I have a keen interest in helping people bring their digital visions to reality.</p>
     <p>In my free time I like to ___!</p>
@@ -169,27 +180,27 @@
 </section>
 
 
-<section id="section2" data-nav="Section 2">
-  <div class="education sec">
-    <h2 id="education">Education</h2>
+<section id="education">
+  <div  class="education container">
+    <h2 >Education</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     
   </div>
 </section>
 
-<section id="section3" data-nav="Section 3"> 
-<div>
+<!-- <section id="section3" > 
+<div class="container">
   <h3>EXP</h3>
   <p> AAAAA</p>
   <p> AAAAA</p>
 </div>
-</section>
+</section> -->
 
 
-  <section id="section4" data-nav="Section 4">
-  <div class="projects">
-    <h2 id="projects">Projects</h2>
+  <section id="projects" data-nav="Section 4">
+  <div class="container projects">
+    <h2>Projects</h2>
 
     <div class="project">
 

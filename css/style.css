@@ -131,33 +131,34 @@ ul{
     
   }
 
+
   /* NAV STUFF Section 1 2 3 4 */
-  .menu-items {
+  .active{
     color: white;
-    font-size: 1.5rem;
-    border: solid 1px green;
+    /* background-color: rgba(100,100,100,1); */
+    border-left: thick solid rgba(255, 0, 0, 0.5);
   }
 
-  .menu-list.active{
-    color: cyan;
-    border: solid 2px red;
-  }
+/* SECTIONS */
+ 
+section {
+  min-height: 25vh;
+}
+section:nth-of-type(2n) {
+  /* background-color: rgb(7, 0, 107); */
+}
 
-  .menu-items .active {
-    /* color: cyan; */
-    border: solid 1px red;
-  }
-
-  .navbar__menu .menu-list.active a,
-.navbar__menu .menu-list.active a:link {
-  color: #5cecc0;
-  text-decoration:underline
+section:last-of-type {
+  min-height: 140vh;
 }
 
 
-  section{
-    min-height: 30em;
-  }
+
+  /* SECTIONS END */
+  /* TEST */
+
+
+  /* TEST END */
 
 
 nav {
@@ -172,6 +173,8 @@ nav {
     margin-right: 50%;
     font-weight: 300;
 }
+
+
 
 
 nav a:hover{
