@@ -132,11 +132,11 @@ ul{
   }
 
 
-  /* NAV STUFF Section 1 2 3 4 */
+  /* NAV HIGHLIGHT NAV HIGHLIGHT ACTIVE SECTION STUFF */
   .active{
     color: white;
-    /* background-color: rgba(100,100,100,1); */
-    border-left: thick solid rgba(255, 0, 0, 0.5);
+    /* background-color: rgb(0, 0, 0); */
+    /* border-left: thick solid rgba(255, 0, 0, 0.5); */
   }
 
 /* SECTIONS */
@@ -152,38 +152,26 @@ section:last-of-type {
   min-height: 140vh;
 }
 
-
-
   /* SECTIONS END */
-  /* TEST */
-
-
-  /* TEST END */
-
 
 nav {
     /* border: solid 2px yellow; */
     display: flex;
     flex-direction: column; 
-    
     align-content: center;
-    align-items: center;
-    height: 70%;
-    margin-top:10%;
-    margin-right: 50%;
+    /* align-items: center; */
+    height: 30%;
+    /* margin-top:5%; */
     font-weight: 300;
 }
 
-
+nav a{
+  font-size: 17px;
+}
 
 
 nav a:hover{
     text-decoration: underline;
-}
-
-.main-hero {
-  min-height: 40vh;
-  padding-top: 3em;
 }
 
 body {
@@ -199,7 +187,7 @@ body {
     }
 
 .left {
-  /* border: solid 2px pink; */
+    /* border: solid 2px pink; */
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -211,7 +199,7 @@ body {
 .links{
   /* border: solid 1px red; */
     display: flex;
-    margin: 3% 0% 35% 0%;
+    margin: 2% 0% 35% 0%;
     z-index: 1;
 
     /* background-image: linear-gradient(to left, rgb(0,0,0) 90% , rgb(100,100, 100) ); */
@@ -239,7 +227,7 @@ body {
 
 .right {
     
-    width: 35%;    
+    width: 28%;    
     /* border: 1px solid red; */
     margin: 4% 20% 5% 50%;
     /* opacity: 90%; */
@@ -320,6 +308,14 @@ a:hover{
 
  }
 
+ .light-theme .project:hover{
+    
+  /* background-color: rgba(70,70,70, 0.1); */
+  /* background-color: rgba(40,50, 85, 0.3); */
+  background-color: rgba(129, 129, 129, 0.1);
+
+}
+
  .project h3{
    text-align: center;
    
@@ -330,13 +326,19 @@ a:hover{
     /* color: darkorchid; */
     /* color: #00aebe; */
     color: rgba(92,	236,	192, 1.0);
+    /* background-color: black; */
+
     
  }
 
  .light-theme .project:hover h3 {
   /* color: rgb(0, 60, 255); */
   /* color: rgb(255, 255, 255); */
-  color: #1000a0;
+  color: #000000;
+  /* No good colours really just do text decoration?*/
+  text-decoration: underline;
+  /* text-decoration-thickness: 1px; */
+
   /* color: #CBDDC8; */
   /* color: #C8D5DD; */
   /* color: #DAC8DD */
@@ -355,9 +357,10 @@ a:hover{
  }
 
  .light-theme .project a:hover{
-  color: rgb(0, 60, 255);
+  /* color: rgb(0, 60, 255); */
   /* color: #5cecc0; */
     /* color: #00b38a; */
+    color: rgb(0, 0, 0);
  }
 
  .tag {
@@ -373,14 +376,16 @@ a:hover{
  }
 
  .light-theme .tag {
-  border: solid 1px rgba(50, 190, 150, 0.9);
-  background-color: rgb(0, 77, 90);
-  /* background-color: #002357e1; */
+  border: solid 1px black;
+  /* background-color: #13A479; */
+  background-color: #002357e1;
+  background-color: black;
   
   border-radius: 999em 999em 999em 999em;
   padding: 0px 14px 0px 14px;
   margin: 1px 2px 1px 2px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
+  
  }
 
 footer {
@@ -490,7 +495,7 @@ img {
   .light-theme {
     /* background-image: linear-gradient(to top, #ffddc8 1% ,#DDD0C8 ); BEIGE  */
     /* background-image: linear-gradient(to top, #0FA4AF 1% ,#AFDDE5 ); darker blue? */
-    background-image: linear-gradient(to top, #9ff1ff  ,#a2dae4 ); 
+    background-image: linear-gradient(to top, #BDC7EB  ,#BDC7EB); 
     /* background-image: linear-gradient(to top, rgb(195, 140, 123) 5% , rgb(205, 165, 133) );  */
     --clr-foreground: hsl(0 0% 0%);
     --clr-background: hsl(0, 0%, 90%);

@@ -60,7 +60,7 @@ function navHighlighter() {
   sections.forEach(current => {
     const sectionHeight = current.offsetHeight;
   
-    const sectionTop = (current.getBoundingClientRect().top + window.pageYOffset) - 50;
+    const sectionTop = (current.getBoundingClientRect().top + window.pageYOffset) - 400;
     sectionId = current.getAttribute("id");
     
     /*
@@ -69,7 +69,7 @@ function navHighlighter() {
     */
     if (
       scrollY > sectionTop &&
-      scrollY <= sectionTop + sectionHeight
+      scrollY <= sectionTop + sectionHeight 
     ){
       document.querySelector(".navigation a[href*=" + sectionId + "]").classList.add("active");
     } else {
