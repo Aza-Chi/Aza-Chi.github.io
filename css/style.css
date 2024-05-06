@@ -83,12 +83,13 @@ a:active {
         fill: white;
         color: white;
         margin: 0.7rem;
-        
+        /* border: solid 1px green; */
         /* background-color: black; */
     }
 
 .icon:hover {
         /* fill: darkorchid; */
+        
         fill: #5cecc0;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
@@ -101,12 +102,17 @@ a:active {
   fill: black;
   /* color: white; */
   /* margin: 1rem; */
+  transition: all 0.5s;
+
 }
 
 .light-theme .icon:hover {
-  fill: rgb(207, 24, 0);
+  fill: rgb(0, 0, 0);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+
+
+  transform: scale(1.0) rotate(360deg);
 }
 
 
